@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/loongenv-logo.png" alt="LoongEnv Logo" width="320"/>
+</p>
+
 # 🐉 LoongEnv
 工业机械臂正向设计与智能控制工程环境
 
