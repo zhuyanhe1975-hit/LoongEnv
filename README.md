@@ -46,7 +46,7 @@
 
 ### 业务流
 
-<p align="center">
+<p align="left">
   <img src="assets/loongEnvTask.png" alt="loongEnv Task" width="800"/>
 </p>
 
