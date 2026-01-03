@@ -47,7 +47,7 @@
 ### 业务流
 
 <p align="center">
-  <img src="assets/loongEnvTask.jpg" alt="loongEnv Task" width="800"/>
+  <img src="assets/loongEnvTask.png" alt="loongEnv Task" width="800"/>
 </p>
 
 ## 支撑平台
