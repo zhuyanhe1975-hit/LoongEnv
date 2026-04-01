@@ -5,6 +5,7 @@
 - [查看今日最新进展布告栏](../docs/daily-status-board.md)
 - [查看开发日志](../docs/dev-log.md)
 - [查看项目里程碑](../docs/project-milestones.md)
+- [ZHU_YH 仓设置与测试说明](../docs/zhu_yh-repo-setup-and-test.md)
 
 ## Purpose
 
