@@ -24,10 +24,7 @@
 
 AI 成员仓建议使用统一命名：
 
-- `loongenv-agent-architect`
-- `loongenv-agent-reviewer`
-- `loongenv-agent-diagnoser`
-- `loongenv-agent-writer`
-- `loongenv-agent-operator`
+- `DOCS_AI`
+- `SUPERVISOR_AI`
 
 AI 仓负责角色化辅助工作，并将共享结果同步回团队中枢仓。
