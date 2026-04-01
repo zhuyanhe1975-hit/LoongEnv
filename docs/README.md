@@ -5,6 +5,8 @@
 - [项目快照](./project-snapshots.md)
 - [项目里程碑](./project-milestones.md)
 - [每日进展布告栏](./daily-status-board.md)
+- [每周工作量统计](./weekly-work-summary.md)
+- [每月工作量统计](./monthly-work-summary.md)
 - [团队协作模型](./team-collaboration-model.md)
 - [仓库拓扑](./repo-topology.md)
 - [成员仓说明](./member-repos.md)

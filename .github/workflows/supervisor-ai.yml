@@ -25,12 +25,12 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- docs/daily-status-board.md; then
+          if git diff --quiet -- docs/daily-status-board.md docs/weekly-work-summary.md docs/monthly-work-summary.md; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/daily-status-board.md
-          git commit -m "SUPERVISOR_AI update daily status board"
+          git add docs/daily-status-board.md docs/weekly-work-summary.md docs/monthly-work-summary.md
+          git commit -m "SUPERVISOR_AI update progress and workload reports"
           git push
