@@ -3,6 +3,7 @@
 ## Morning Entry
 
 - [查看今日最新进展布告栏](../docs/daily-status-board.md)
+- [查看项目预览中心](../preview/README.md)
 - [查看开发日志](../docs/dev-log.md)
 - [查看项目快照](../docs/project-snapshots.md)
 - [查看项目里程碑](../docs/project-milestones.md)
