@@ -2,11 +2,11 @@
 
 ## 1. 本地仓设置
 
-如果 GitHub 上已经创建了 `LoongEnv-ZHU_YH` 仓库，在本地执行：
+如果 GitHub 上已经创建了组织仓 `LoongEnv-HIT/LoongEnv-ZHU_YH`，在本地执行：
 
 ```bash
 cd /home/yhzhu/LoongEnv-ZHU_YH
-git remote add origin git@github.com:zhuyanhe1975-hit/LoongEnv-ZHU_YH.git
+git remote add origin git@github.com:LoongEnv-HIT/LoongEnv-ZHU_YH.git
 git branch -M main
 ```
 
