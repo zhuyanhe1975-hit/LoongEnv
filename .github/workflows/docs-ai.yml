@@ -11,6 +11,9 @@ permissions:
 jobs:
   update-dev-log:
     runs-on: ubuntu-latest
+    env:
+      OWNER: LoongEnv-HIT
+      MEMBER_REPOS: LoongEnv-ZHU_YH|ZHU_YH
 
     steps:
       - name: Checkout repository
@@ -18,17 +21,28 @@ jobs:
         with:
           fetch-depth: 50
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Playwright browser
+        run: npx -y playwright@1.52.0 install --with-deps chromium
+
       - name: Generate development log
         run: bash .github/scripts/docs_ai.sh
 
+      - name: Generate project snapshots
+        run: bash .github/scripts/project_snapshots.sh
+
       - name: Commit changes
         run: |
-          if git diff --quiet -- docs/dev-log.md; then
+          if git diff --quiet -- docs/dev-log.md docs/project-snapshots.md docs/project-snapshots; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/dev-log.md
-          git commit -m "DOCS_AI update development log"
+          git add docs/dev-log.md docs/project-snapshots.md docs/project-snapshots
+          git commit -m "DOCS_AI update logs and project snapshots"
           git push
