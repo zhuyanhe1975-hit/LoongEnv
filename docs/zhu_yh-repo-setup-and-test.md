@@ -1,5 +1,7 @@
 # ZHU_YH Repo Setup And Test
 
+> 本文针对外部成员仓 `LoongEnv-ZHU_YH` 的接入与测试，不对应中枢仓内被忽略的本地占位目录 `repos/ZHU_YH`。
+
 ## 1. 本地仓设置
 
 如果 GitHub 上已经创建了组织仓 `LoongEnv-HIT/LoongEnv-ZHU_YH`，在本地执行：
@@ -38,7 +40,7 @@ git push -u origin main
 
 ## 4. 验证入口
 
-- 中枢仓首页 `今日主入口`
-- `dashboard/README.md`
-- `docs/daily-status-board.md`
-- `LoongEnv` Actions 中的 `DEPLOY_AI`
+- 中枢仓首页 `README.md`
+- 团队晨间看板 `dashboard/README.md`
+- 每日进展布告栏 `docs/daily-status-board.md`
+- `LoongEnv` Actions 中的 `SUPERVISOR_AI`
